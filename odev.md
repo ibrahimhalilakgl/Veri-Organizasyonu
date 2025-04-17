@@ -30,9 +30,8 @@ IIS’de okuyan ve bir kitap ödünç almış öğrencileri listeleyiniz:
 Ali tarafından yazılmış olup veritabanı anahtarını içermeyen kitapları listeleyiniz:
 π(Başlık)(
   σ(yAdi = 'Ali')(yazar ⨝ yazılmıs ⨝ kitap)
-  -
-  π(Başlık)(σ(Anahtar = 'veritabanı')(acıklama ⨝ kitap))
-)
+  
+  π(Başlık)(σ(Anahtar = 'veritabanı')(acıklama ⨝ kitap)))
 
 Her bir kitabı, yalnızca anahtarlarıyla birlikte listeleyiniz (anahtarı olmayan kitaplar hariç):
 π(Başlık, Anahtar)(kitap ⨝ acıklama)
