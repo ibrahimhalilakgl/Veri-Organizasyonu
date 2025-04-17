@@ -27,7 +27,7 @@ IIS’de okuyan ve bir kitap ödünç almış öğrencileri listeleyiniz:
 ‘Ali’ tarafından yazılan kitapların başlıklarını listeleyiniz (kartezyen çarpım ile):
 π(Başlık)(σ(yAdi = 'Ali')(yazar ⨝ yazılmıs ⨝ kitap))
 
-‘Ali’ tarafından yazılmış olup ‘veritabanı’ anahtarını içermeyen kitapları listeleyiniz:
+Ali tarafından yazılmış olup veritabanı anahtarını içermeyen kitapları listeleyiniz:
 π(Başlık)(
   σ(yAdi = 'Ali')(yazar ⨝ yazılmıs ⨝ kitap)
   -
